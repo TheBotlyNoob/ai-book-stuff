@@ -41,6 +41,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "ai-book-stuff"
+version = "0.1.0"
+dependencies = [
+ "regex",
+ "rust-bert",
+]
+
+[[package]]
 name = "anyhow"
 version = "1.0.68"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -63,13 +71,6 @@ name = "base64ct"
 version = "1.5.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b645a089122eccb6111b4f81cbc1a49f5900ac4666bb93ac027feaecf15607bf"
-
-[[package]]
-name = "bee-movies"
-version = "0.1.0"
-dependencies = [
- "rust-bert",
-]
 
 [[package]]
 name = "bitflags"
